@@ -6,12 +6,50 @@
     <title>JOB APPLICATION FORM</title>
 </head>
 <body>
-    <div class="form">
+    <div class="contianer">
         <h1>Job Application</h1>
         <hr>
+        <div class="form-contianer">
         <form>
-            <input type="text" placeholder="Enter First">
+            <div class="form">
+                <label for="text">First Name : </label>
+                <input type="text" id="fname" name="fname" placeholder="Enter First">
+            </div>
+            <div class="form">
+                <label for="text">Last Name : </label>
+                <input type="text" id="lname" name="lname" placeholder="Enter Last">
+            </div>
+            <div class="form">
+                <label for="email">E-mail : </label>
+                <input type="email" id="email" name="email" placeholder="abc@gmail.com" >
+            </div>
+            <div class="form">
+                <label for="select">Job Role : </label>
+                <select>
+                    <option value="1">Frontend</option>
+                    <option value="2">Backend</option>
+                    <option value="3">Fullstack</option>
+                    <option value="4">Mernstack</option>
+                    <option value="1">Javastack</option>
+                </select>
+            </div>
+            <div class="form">
+                <label for="url">Resume : </label>
+                <input type="url" id="url" name="url" placeholder="https://resume.com" >
+            </div>
+            <div class="form">
+                <label for="file">Upload Resume : </label>
+                <input type="file" id="file" name="file" placeholder="Choose File" >
+            </div>
+            <div class="form">
+                <label for="text">Address : </label>
+                <textarea name="address" id="address" rows="3" cols="20">Enter Address</textarea> 
+            </div>
+            <div class="form">
+                <button type="submit">Apply</button>
+            </div>
         </form>
+        </div>
     </div>
 </body>
 </html>
