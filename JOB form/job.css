@@ -12,7 +12,7 @@ hr{
 .form-contianer{
     background-color: rgb(149, 225, 200);
     margin: 20px;
-    padding: 5px;
+    padding: 10px;
     max-width: 900px;
 }
 .form{
@@ -25,15 +25,17 @@ label{
     margin-bottom: 4px;
 }
 input,select,textarea{
+    font-size: medium;
     border: 1px solid black;
     border-radius: 3px;
     padding: 3px;
 }
 button{
     display: flex;
-    justify-content: end;
     border-radius: 5px;
     padding: 1px 5px;
+    max-width: 50px;
+    float: right;
 }
 button:hover{
     background-color: green;
