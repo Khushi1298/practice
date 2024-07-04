@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.form-contianer{
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 5px;
+}
+.form{
+    margin: 5px;
+}
