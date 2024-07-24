@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url("background.jpg");
+   color: white;
+}
+.card{
+    height: 100px;
+    width: 200px;
+}
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+.entry{
+    margin: 20px;
+    padding-top: 10px;
+}
+.forget{
+    justify-content: left;
+}
+.login{
+    border-radius: 15px;
+}
