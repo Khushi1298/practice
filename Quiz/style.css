@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    overflow: hidden;
+    background: linear-gradient(50deg,cyan,magenta);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    margin-bottom: 20px;
+}
+.box{
+    padding: 10px;
+    min-width: 100px;
+    height: auto;
+    box-shadow: 0 0 20px 2px #fff;
+    border-radius: 10px;
+}
+.que{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.ans{
+    padding: 5px;
+}
+.box1{
+    display:flex;
+    box-shadow:5px 5px 5px 2px  cyan;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
